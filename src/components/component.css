@@ -1,0 +1,25 @@
+.component-container {
+  flex: 0 0 auto;
+  margin: 25px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component-text {
+  color: #a1a1a1;
+  padding: 1em;
+  align-self: center;
+  text-transform: uppercase;
+}
+.component-iframe {
+  width: 320px;
+  height: 200px;
+}
+.component-text1 {
+  color: #A1A1A1;
+  width: 100%;
+  padding: 1em;
+}
