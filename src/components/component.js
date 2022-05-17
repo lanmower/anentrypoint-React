@@ -15,19 +15,19 @@ const AppComponent = (props) => {
 }
 
 AppComponent.defaultProps = {
-  body: 'bla',
   text1: 'Text',
+  iframe_src: 'https://www.youtube.com/embed/DeQkMK5LME4',
   text: 'Text',
   heading: 'Heading',
-  iframe_src: 'https://www.youtube.com/embed/DeQkMK5LME4',
+  body: 'bla',
 }
 
 AppComponent.propTypes = {
-  body: PropTypes.string,
   text1: PropTypes.string,
+  iframe_src: PropTypes.string,
   text: PropTypes.string,
   heading: PropTypes.string,
-  iframe_src: PropTypes.string,
+  body: PropTypes.string,
 }
 
 export default AppComponent

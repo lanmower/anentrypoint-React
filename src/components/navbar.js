@@ -132,29 +132,29 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  Logo: '𝘼𝙉 🎙𝙀𝙉𝙏𝙍𝙔𝙋❍𝙄𝙉𝙏',
-  text: 'Releases',
-  text1: 'Videos',
-  text2: 'Follow us on ',
   Logo1: 'Travel',
+  text1: 'Videos',
   text3: 'Home',
   text4: 'About',
-  text5: 'Tour Packages',
-  text6: 'Contact',
   rootClassName: '',
+  text: 'Releases',
+  Logo: '𝘼𝙉 🎙𝙀𝙉𝙏𝙍𝙔𝙋❍𝙄𝙉𝙏',
+  text6: 'Contact',
+  text5: 'Tour Packages',
+  text2: 'Follow us on ',
 }
 
 Navbar.propTypes = {
-  Logo: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
   Logo1: PropTypes.string,
+  text1: PropTypes.string,
   text3: PropTypes.string,
   text4: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
   rootClassName: PropTypes.string,
+  text: PropTypes.string,
+  Logo: PropTypes.string,
+  text6: PropTypes.string,
+  text5: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default Navbar
